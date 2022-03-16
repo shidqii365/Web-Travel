@@ -252,26 +252,39 @@ header {
 }
 
 footer {
-  height: 317px;
+  /* height: 317px; */
   background-color: #323232;
   color: #fff;
   font-family: Lato;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  width: 100%;
+  /* flex-direction: row; */
 }
 
-.footer-logo {
-  margin-top: 80px;
-  height: 200px;
-  /* background-color: red; */
+.container-footer {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 95%;
+  padding-bottom: 84px;
 }
 
 .footer-logo img {
   width: 181.12px;
   height: 73px;
+}
+
+.footer-logo {
+  margin-left: 163px;
+  margin-top: 80px;
+  /* background-color: red; */
+}
+
+.footer-list {
+  margin-right: 170px;
+  margin-top: 91px;
+  /* background-color: blue; */
 }
 
 .footer-logo p {
@@ -282,17 +295,11 @@ footer {
 }
 
 .copyright {
+  display: block;
   font-size: 20px;
   font-weight: 400;
   margin-top: 32px;
-  text-align: right;
-}
-
-.footer-list {
-  margin-top: 91px;
-  margin-left: 400px;
-  /* background-color: blue; */
-  height: 200px;
+  margin-left: 160px;
 }
 
 .Social-media a {
@@ -443,6 +450,59 @@ footer {
 
   .deskripsi-card p {
     font-size: 12px;
+  }
+
+  .footer-logo img {
+    width: 20%;
+    height: 10%;
+  }
+
+  .footer-logo {
+    margin-left: 20px;
+    margin-top: 80px;
+    /* background-color: red; */
+  }
+
+  .footer-list {
+    margin-right: 170px;
+    margin-top: 91px;
+    /* background-color: blue; */
+  }
+
+  .footer-logo p {
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    width: 50%;
+  }
+
+  .copyright {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 32px;
+    margin-left: 160px;
+  }
+
+  .Social-media a {
+    width: -10px;
+    height: -10px;
+  }
+
+  .instagram {
+    padding: 24.65px 24.68px;
+  }
+
+  .youtube {
+    padding: 27.82px 23.14px;
+  }
+
+  .facebook {
+    padding: 24.79px 31.63px;
+  }
+
+  .twitter {
+    padding: 26px 31.7px;
   }
 }
 
@@ -644,20 +704,6 @@ footer {
   .btn-message a {
     font-size: 14px;
     padding: 12px 20px;
-  }
-
-  footer {
-    height: 317px;
-  }
-
-  .footer-logo {
-    margin-left: 0;
-    /* background-color: red; */
-  }
-
-  .footer-list {
-    margin-right: 0;
-    /* background-color: blue; */
   }
 }
 
