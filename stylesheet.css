@@ -76,9 +76,13 @@ h3 {
   margin-top: 40px;
 }
 
-@keyframes button{
-  from{background-color:#ff5810;}
-  to{background-color:#aaaa;}
+@keyframes button {
+  from {
+    background-color: #ff5810;
+  }
+  to {
+    background-color: #aaaa;
+  }
 }
 
 .btn {
@@ -91,7 +95,7 @@ h3 {
   border-radius: 32px;
   text-align: center;
   transition: all 0.5s;
-  animation-name:button;
+  animation-name: button;
   animation-duration: 2s;
   animation-delay: -2s;
   animation-direction: alternate;
@@ -246,64 +250,148 @@ header {
   display: inline-block;
   margin-top: 16px;
 }
+
 footer {
-  width: 1440px;
   height: 317px;
-  background: #323232;
+  background-color: #323232;
+  color: #fff;
+  font-family: Lato;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
+
 .footer-logo {
-  float: left;
-  margin: 80px 431px 80px 163px;
+  margin-top: 80px;
+  height: 200px;
+  /* background-color: red; */
 }
+
 .footer-logo img {
   width: 181.12px;
   height: 73px;
 }
-.Desc-footer {
-  width: 260px;
+
+.footer-logo p {
   height: 60px;
-  font-style: normal;
-  font-weight: 400;
+  width: 260px;
   font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 0.4px;
-  color: #ffffff;
-  margin-top: 35.73px;
+  margin-top: 24px;
 }
+
+.copyright {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 32px;
+  text-align: right;
+}
+
 .footer-list {
-  margin: 91px 166px 84px 854px;
+  margin-top: 91px;
+  margin-left: 400px;
+  /* background-color: blue; */
+  height: 200px;
 }
-.footer-list p {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
 
-  letter-spacing: 0.4px;
-  padding-top: 40px;
-
-  color: #ffffff;
-}
-.Social-media {
-  width: 416px;
-  height: 80px;
-  padding-top: 91px;
-}
 .Social-media a {
-  display: inline-block;
-  height: 80px;
+  background-color: #6b6b6b;
   width: 80px;
-  background-color: rgb(255, 255, 255, 0.2);
-  text-align: center;
-  margin: 0px 10px 10px 0px;
-  border-radius: 50%;
-  line-height: 80px;
-  color: #ffffff;
-}
-.Social-media img {
+  height: 80px;
+  display: inline-block;
   vertical-align: middle;
+  border-radius: 50%;
+  margin-left: 32px;
 }
+
+.instagram {
+  padding: 24.65px 24.68px;
+}
+
+.youtube {
+  padding: 27.82px 23.14px;
+}
+
+.facebook {
+  padding: 24.79px 31.63px;
+}
+
+.twitter {
+  padding: 26px 31.7px;
+}
+
+.message-wrapper {
+  width: 1103px;
+  height: 486px;
+  background-color: #fff4e4;
+  border-radius: 8px;
+  margin: 50px auto;
+}
+
+.section-message {
+  padding: 80px 132px;
+  text-align: center;
+}
+
+.section-message h6 {
+  text-align: center;
+  color: #f24900;
+  margin-bottom: 5px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.section-message h2 {
+  margin-top: 24px;
+  font-size: 40px;
+  height: 120px;
+  width: 838px;
+  line-height: 60px;
+  font-family: Playfair Display;
+  color: #333333;
+}
+
+.section-message p {
+  margin-top: 32px;
+  font-family: Lato;
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+  opacity: 0.6;
+  width: 838px;
+  height: 24px;
+  margin-bottom: 48px;
+}
+
+.btn-message {
+  width: 180px;
+  text-align: center;
+  background-color: #ff5810;
+  padding: 3px;
+  margin: auto;
+  border-radius: 32px;
+  height: 54px;
+}
+
+.btn-message:hover a {
+  color: aquamarine;
+}
+
+.btn-message a {
+  padding: 12px 40px;
+  display: block;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  position: absolute;
+}
+
 /* Smartphone View */
 @media (max-width: 576px) {
   .main1 {
@@ -355,39 +443,6 @@ footer {
 
   .deskripsi-card p {
     font-size: 12px;
-  }
-}
-
-/* Tablet View */
-@media (max-width: 768px) {
-  .main1 {
-    height: 600px;
-  }
-
-  .main1-values {
-    padding: 60px 99px 110px 99px;
-  }
-
-  .card {
-    flex-direction: row;
-    margin-top: -50px;
-  }
-
-  .judul h1 {
-    font-size: 12px;
-  }
-
-  .judul h3 {
-    margin-top: -10px;
-    font-size: 28px;
-  }
-
-  .deskripsi-card h4 {
-    font-size: 20px;
-  }
-
-  .deskripsi-card p {
-    font-size: 14px;
   }
 }
 
@@ -549,6 +604,61 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .message-wrapper {
+    width: 800px;
+  }
+
+  .section-message {
+    padding: 80px 0px;
+  }
+
+  .section-message h6 {
+    display: block;
+    font-size: 14px;
+    margin-bottom: -20px;
+  }
+
+  .section-message h2 {
+    margin-bottom: 20px;
+    height: 100px;
+    padding-top: 25px;
+    margin-left: 120px;
+    display: block;
+    font-size: 30px;
+    line-height: 32px;
+    width: 70%;
+  }
+
+  .section-message p {
+    margin-top: 40px;
+    display: inline-block;
+    font-size: 14px;
+    width: 200px;
+  }
+
+  .btn-message {
+    width: 120px;
+  }
+
+  .btn-message a {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+
+  footer {
+    height: 317px;
+  }
+
+  .footer-logo {
+    margin-left: 0;
+    /* background-color: red; */
+  }
+
+  .footer-list {
+    margin-right: 0;
+    /* background-color: blue; */
+  }
 }
 
 /* HEADER */
@@ -607,5 +717,110 @@ footer {
 
   .logo {
     width: 72px;
+  }
+
+  .message-wrapper {
+    width: 300px;
+  }
+
+  .section-message {
+    padding: 80px 0px;
+  }
+
+  .section-message h6 {
+    display: block;
+    font-size: 12px;
+  }
+
+  .section-message h2 {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20px;
+    width: 200px;
+  }
+
+  .section-message p {
+    margin-top: 40px;
+    display: inline-block;
+    font-size: 14px;
+    width: 200px;
+  }
+
+  .btn-message {
+    width: 120px;
+  }
+
+  .btn-message a {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+  .main1 {
+    height: 600px;
+  }
+
+  .main1-values {
+    padding: 60px 99px 110px 99px;
+  }
+
+  .card {
+    flex-direction: row;
+    margin-top: -50px;
+  }
+
+  .judul h1 {
+    font-size: 12px;
+  }
+
+  .judul h3 {
+    margin-top: -10px;
+    font-size: 28px;
+  }
+
+  .deskripsi-card h4 {
+    font-size: 20px;
+  }
+
+  .deskripsi-card p {
+    font-size: 14px;
+  }
+
+  .message-wrapper {
+    width: 300px;
+  }
+
+  .section-message {
+    padding: 80px 0px;
+  }
+
+  .section-message h6 {
+    display: block;
+    font-size: 12px;
+  }
+
+  .section-message h2 {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20px;
+    width: 200px;
+  }
+
+  .section-message p {
+    margin-top: 40px;
+    display: inline-block;
+    font-size: 14px;
+    width: 200px;
+  }
+
+  .btn-message {
+    width: 120px;
+  }
+
+  .btn-message a {
+    font-size: 14px;
+    padding: 12px 20px;
   }
 }
