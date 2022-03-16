@@ -243,7 +243,7 @@
     cursor: pointer;
   }
   
-  .card img {
+  .card-2 img {
     border-radius: 10px;
     width: 330px;
     height: 460px;
@@ -251,7 +251,7 @@
     margin-bottom: 20px;
   }
   
-  .card .city {
+  .card-2 .city {
     position: absolute;
     top: 340px;
     width: 100%;
@@ -266,7 +266,7 @@
     color: #ffffff;
   }
   
-  .card p {
+  .card-2 p {
     position: absolute;
     top: 370px;
     width: 100%;
@@ -302,11 +302,11 @@
       height: 340px;
       margin-right: 0;
     }
-    .card .city {
+    .card-2 .city {
       top: 240px;
       font-size: 14px;
     }
-    .card p {
+    .card-2 p {
       top: 260px;
       font-size: 24px;
     }
@@ -329,15 +329,15 @@
       justify-content: center;
     }
   
-    .card img {
+    .card-2 img {
       width: 300px;
       height: 400px;
     }
-    .card .city {
+    .card-2 .city {
       top: 290px;
       font-size: 15px;
     }
-    .card p {
+    .card-2 p {
       top: 310px;
       font-size: 26px;
     }
