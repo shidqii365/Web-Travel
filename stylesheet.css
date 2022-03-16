@@ -105,7 +105,7 @@
 }
 
 /* Smartphone View */
-@media (max-width: 767px) {
+@media (max-width: 576px) {
   .main1 {
     height: 1000px !important;
   }
@@ -136,8 +136,9 @@
   }
 
   .gambar-card img {
-    width: 50%;
-    margin: 24px 19px;
+    width: 50% !important;
+    height: 45% !important;
+    margin: 19px 3px;
   }
 
   #middle {
@@ -158,7 +159,7 @@
 }
 
 /* Tablet View */
-@media (max-width: 1199px) {
+@media (max-width: 768px) {
   .main1 {
     height: 600px;
   }
