@@ -156,52 +156,6 @@
   .deskripsi-card p {
     font-size: 12px;
   }
-  .message-wrapper {
-  width: 50%;
-  background-color: bisque;
-  border-radius: 8px;
-  margin: 50px auto;
-  display: flex;
-}
-
-.section-message {
-  padding: 30px;
-}
-
-.section-message h6 {
-  text-align: center;
-  color: orangered;
-  margin-bottom: 5px;
-}
-
-.section-message h2 {
-  font-size: 28px;
-  font-family: "Nanum Brush Script", cursive;
-  text-align: left;
-}
-
-.section-message p {
-  margin-top: 10px;
-  font-family: "Montserrat", sans-serif;
-}
-
-.btn-message {
-  width: 20%;
-  text-align: center;
-  background-color: orangered;
-  padding: 3px;
-  margin: 10px auto;
-  border-radius: 8px;
-}
-
-.btn-message:hover a {
-  color: aquamarine;
-}
-
-.btn-message a {
-  color: whitesmoke;
-  text-decoration: none;
-}
 }
 
 /* Tablet View */
@@ -357,16 +311,6 @@
       top: 260px;
       font-size: 24px;
     }
-    .message-wrapper {
-    width: 350px;
-  }
-
-  .section-message p {
-    font-size: 10px;
-  }
-  .btn-message {
-    width: 50%;
-  }
   }
   
   @media (min-width: 576.1px) and (max-width: 992px) {
@@ -398,13 +342,6 @@
       top: 310px;
       font-size: 26px;
     }
-    .message-wrapper {
-    width: 80%;
-  }
-
-  .section-message h2 {
-    text-align: center;
-  }
   }
   
   @media (min-width: 992.1px) and (max-width: 1200px) {
